@@ -1,0 +1,530 @@
+.wrapper{
+    width: 1100px;
+    margin: 0 auto;
+}
+.header{
+    position: absolute;
+    width: 100%;
+    padding: 58px 0;
+}
+.header_content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo > img{
+    width: 100%;
+    display: block;
+}
+nav{
+    width: 40%;
+}
+.nav_links{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_items{
+    padding: 10px;
+    border-radius: 5px;
+}
+.nav_items > h2{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-weight: 300;
+}
+.nav_items:hover{
+    background-color: #5b3d76;
+}
+.header_nav_phone{
+    width: 38px;
+    height: 35px;
+    background-color: transparent;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 30px;
+    outline: none;
+}
+.header_nav_phone_line{
+    display: block;
+    width: 100%;
+    height: 7px;
+    background-color: white;
+}
+
+/* 
+section_home 
+*/
+
+.section_home{
+    width: 100%;
+    height: 100vh;
+    background-color: #795198;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 140px 0;
+}
+.section_home_content{
+    max-width: 900px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.section_home_title{
+    margin-bottom: 60px;
+}
+.section_title_head{
+    font-size: 42.16px;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    line-height: 1.5;
+    font-weight: 600;
+    text-align: center;
+}
+.section_button{
+    padding: 25px 55px;
+    color: white;
+    background-color: #d27c4f;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
+    cursor: pointer;
+    outline: none;
+}
+.section_button:hover{
+    background-color: #d17544;
+}
+
+/* 
+section_service 
+*/
+
+.section_service{
+    background-color: #6fc1a4;
+    padding: 120px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section_all_title{
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.section_all_head{
+    color: white;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 1.5;
+    font-weight: 600;
+    text-align: center;
+}
+.section_all_hr{
+    background-color: #5ea48c;
+    border: none;
+    width: 85px;
+    height: 2px;
+    margin: 20px 0;
+}
+.section_all_head3{
+    color: white;
+    font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 1.5;
+    text-align: center;
+}
+.section_service_content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section_service_content_items{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section_service_content_img{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section_service_content_head{
+    margin: 60px 0 30px 0;
+}
+.section_service_content_head > h2{
+    font-size: 24px;
+}
+.section_service_content_par > p{
+    font-size: 16px;
+}
+
+/* 
+section_team 
+*/
+
+.section_team{
+    background-color: #eaf1f7;
+}
+.section_team_hr{
+    background-color: #ccd8e4;
+}
+.section_team_head, .section_team_head3, .section_service_head, .section_service_head3{
+    color: black;
+}
+.section_service_content_img_rad{
+    width: 80%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.section_service_content_img_rad > img{
+    width: 100%;
+}
+.section_team_content_head{
+    margin-bottom: 0;
+}
+.section_team_content_blue{
+    margin: 15px 0 20px 0;
+}
+.section_team_content_blue_h{
+    color: #6fb8e4;
+    font-size: 16px;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.section_team_content_blue_h > span{
+    text-transform: uppercase;
+}
+.section_team_content_icons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+.section_team_content_icons_i{
+    width: 35px;
+    height: 35px;
+    background-color: #c2d0de;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section_team_content_icons > 
+.section_team_content_icons_i:nth-child(1), 
+.section_team_content_icons_i:nth-child(2),
+.section_team_content_icons_i:nth-child(3),
+.section_team_content_icons_i:nth-child(4){
+    margin-left: 10px;
+}
+
+/* 
+section_skills
+*/
+
+.section_skills{
+    background-color: white;
+}
+.section_skills_diagramm_h{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.section_skills_diagramm_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section_skills_diagramm_proc{
+    position: absolute;
+}
+.section_skills_diagramm_proc > h2{
+    font-size: 55px;
+    font-weight: 600;
+    font-family: 'Titillium Web', sans-serif;
+    color: black;
+}
+.section_skills_diagramm_h > h3{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase;
+    color: black;
+}
+
+/* 
+section_portfolio 
+*/
+
+.section_portfolio{
+    background-color: #f6dc9b;
+    height: auto;
+    flex-direction: column;
+}
+.section_portfolio_nav{
+    display: flex;
+    justify-content: center;
+}
+.section_portfolio_nav_cont{
+    width: 380px;
+    display: flex;
+    justify-content: space-between;
+}
+.section_portfolio_nav_item{
+    width: 24%;
+    padding: 9px 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e2c887;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.section_portfolio_nav_item:hover{
+    background-color: white;
+}
+.section_portfolio_nav_item > h3{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase;
+}
+.section_portfolio_content{
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.section_portfolio_content_item{
+    margin-top: 60px;
+    width: 49%;
+}
+.section_portfolio_content_item_img{
+    width: 100%;
+}
+.section_portfolio_content_item_img > img{
+    width: 100%;
+    display: block;
+}
+.section_portfolio_content_item_par{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.section_portfolio_content_item_par > h3{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+.section_portfolio_but{
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section_portfolio_but > button{
+    color: white;
+    padding: 25px 55px;
+    background-color: #6fc1a4;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
+    cursor: pointer;
+}
+.section_portfolio_but > button:hover{
+    background-color: #60b899;
+}
+
+/* 
+section_about 
+*/
+
+.section_about{
+    height: auto;
+    background-color: #bb487d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section_about_content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+.section_about_content_line{
+    display: flex;
+    justify-content: space-between;
+}
+.section_about_content_item{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.section_about_content_line:nth-child(2) > 
+.section_about_content_item:nth-child(1){
+    margin-top: 160px;
+}
+.section_about_content_line:nth-child(2) > 
+.section_about_content_item:nth-child(2){
+    margin-top: 160px;
+}
+.section_about_content_item_img{
+    width: 20%;
+    border-radius: 50%;
+}
+.section_about_content_item_img > img{
+    width: 100%;
+    display: block;
+}
+.section_about_content_item_cont{
+    width: 80%;
+    padding-left: 50px;
+}
+.section_about_content_item_cont_par{
+    width: 100%;
+    font-style: oblique;
+    font-size: 21px;
+    color: #f6e7ee;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+}
+.section_about_content_item_cont_title{
+    width: 100%;
+    margin-top: 30px;
+}
+.section_about_content_item_cont_title > h3{
+    color: #f6e7ee;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.section_about_content_item_cont_title > h4{
+    font-size: 18px;
+    color: #eec897;
+    font-family: 'Titillium Web', sans-serif;
+    margin-top: 5px;
+}
+.section_about_content_item_cont_title > h4 > span{
+    text-transform: uppercase;
+}
+
+/* 
+section_touch 
+*/
+
+.section_touch{
+    height: auto;
+    background-color: #455496;
+    flex-direction: column;
+}
+.section_touch > .section_all_title > hr{
+    background-color: #313d6f;
+}
+.section_touch_content{
+    width: 100%;
+}
+.section_touch_form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.section_touch_form_inputs{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.section_touch_form_inputs_nam{
+    width: 47%;
+}
+.section_touch_form_inputs_nam > input, textarea{
+    width: 100%;
+    text-transform: capitalize;
+    padding: 17px;
+    color: White;
+    background-color: #313d6f;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    outline: none;
+}
+.section_touch_form_inputs_nam > input::placeholder{
+    color: white;
+}
+.section_touch_form_inputs_text{
+    width: 100%;
+    margin-top: 30px;
+}
+.section_touch_form_inputs_text > textarea{
+    width: 100%;
+    padding-bottom: 160px;
+}
+.section_touch_form_inputs_nam > textarea::placeholder{
+    color: white;
+}
+.section_touch_form_but > button{
+    background-color: #6fb9e5;
+    outline: none;
+}
+.section_touch_form_but > button:hover{
+    background-color: #58aada;
+}
+
+/* 
+footer 
+*/
+
+.footer{
+    padding: 45px 0;
+    background-color: #3e4c8b;
+}
+.footer_list{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_items{
+    width: 14%;
+    display: flex;
+    justify-content: center;
+}
+.footer_items > a > h3{
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+.footer_items > a > h3:hover{
+    color: #6fb8e4;
+}
